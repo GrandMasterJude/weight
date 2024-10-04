@@ -5,7 +5,7 @@
 #barchart0,
 #barchart1,
 #barchart2 {
-    min-height: 33vh;
+    /* min-height: 33vh; */
     min-width: 100vw;
 }
 
