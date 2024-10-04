@@ -1,15 +1,16 @@
 #charts {
-    display: flex;
+    /* display: flex; */
 }
 
 #barchart0,
 #barchart1,
 #barchart2 {
-    min-height: 100vh;
-    width: 33vw;
+    min-height: 33vh;
+    min-width: 100vw;
 }
 
 #barchart4 {
+    display: none;
     /* min-height: 100vh; */
     /* min-width: 200vw; */
 }

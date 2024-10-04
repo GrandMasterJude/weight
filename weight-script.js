@@ -192,21 +192,21 @@ function drawChart() {
       }
 
     let options0 = {
-        bars: 'horizontal',
+        // bars: 'horizontal',
         chart: {
             title: 'Weight',
             legend: { position: "none" },
         }
     };
     let options1 = {
-        bars: 'horizontal',
+        // bars: 'horizontal',
         chart: {
             title: 'BMI',
             legend: { position: "none" },
         }
     };
     let options2 = {
-        bars: 'horizontal',
+        // bars: 'horizontal',
         isStacked: 'true',
         series: {
             0:{color:'yellow'},
