@@ -37,7 +37,7 @@ function drawChart() {
         ['3 Oct 2024', 242.6],
         ['4 Oct 2024', 243.0],
         ['5 Oct 2024', 241.4],
-        ['6 Oct 2024', 0],
+        ['6 Oct 2024', 244.2],
         ['7 Oct 2024', 0],
         ['8 Oct 2024', 0],
         ['9 Oct 2024', 0],
@@ -96,7 +96,7 @@ function drawChart() {
         ['3 Oct 2024', 28.3],
         ['4 Oct 2024', 28.3],
         ['5 Oct 2024', 28.1],
-        ['6 Oct 2024', 0],
+        ['6 Oct 2024', 28.5],
         ['7 Oct 2024', 0],
         ['8 Oct 2024', 0],
         ['9 Oct 2024', 0],
@@ -155,7 +155,7 @@ function drawChart() {
         ['3 Oct 2024', 28.5, 35.4, 26.5],
         ['4 Oct 2024', 28.5, 35.4, 26.5],
         ['5 Oct 2024', 28.2, 35.7, 26.7],
-        ['6 Oct 2024', 0.0, 0.0, 0.0],
+        ['6 Oct 2024', 28.5, 35.1, 26.3],
         ['7 Oct 2024', 0.0, 0.0, 0.0],
         ['8 Oct 2024', 0.0, 0.0, 0.0],
         ['9 Oct 2024', 0.0, 0.0, 0.0],
@@ -195,14 +195,14 @@ function drawChart() {
         // bars: 'horizontal',
         chart: {
             title: 'Weight',
-            legend: { position: "none" },
+            legend: { position: 'none' },
         }
     };
     let options1 = {
         // bars: 'horizontal',
         chart: {
             title: 'BMI',
-            legend: { position: "none" },
+            legend: { position: 'none' },
         }
     };
     let options2 = {
@@ -215,7 +215,7 @@ function drawChart() {
           },
         chart: {
             title: 'Body %',
-            legend: { position: "none" },
+            legend: { position: 'none' },
         }
     };
     let options4 = {
