@@ -38,7 +38,7 @@ function drawChart() {
         ['4 Oct 2024', 243.0],
         ['5 Oct 2024', 241.4],
         ['6 Oct 2024', 244.2],
-        ['7 Oct 2024', 0],
+        ['7 Oct 2024', 242.4],
         ['8 Oct 2024', 0],
         ['9 Oct 2024', 0],
         ['10 Oct 2024', 0],
@@ -66,7 +66,7 @@ function drawChart() {
     ]);
 
     let dataBMI = google.visualization.arrayToDataTable([
-        ['Date', 'BMI'],
+        ['Date', 'B M I'],
         ['7 Sep 2024', 29.6],
         ['8 Sep 2024', 28.7],
         ['9 Sep 2024', 26.6],
@@ -97,7 +97,7 @@ function drawChart() {
         ['4 Oct 2024', 28.3],
         ['5 Oct 2024', 28.1],
         ['6 Oct 2024', 28.5],
-        ['7 Oct 2024', 0],
+        ['7 Oct 2024', 28.3],
         ['8 Oct 2024', 0],
         ['9 Oct 2024', 0],
         ['10 Oct 2024', 0],
@@ -125,7 +125,7 @@ function drawChart() {
     ]);
 
     let dataPercent = google.visualization.arrayToDataTable([
-        ['Date', 'Fat %', 'Water %', 'Muscle Mass %'],
+        ['Date', 'Fat %', 'Water %', 'Muscle %'],
         ['7 Sep 2024', 33.3, 25.0, 30.1],
         ['8 Sep 2024', 28.9, 34.9, 26.1],
         ['9 Sep 2024', 26.8, 35.0, 26.2],
@@ -156,7 +156,7 @@ function drawChart() {
         ['4 Oct 2024', 28.5, 35.4, 26.5],
         ['5 Oct 2024', 28.2, 35.7, 26.7],
         ['6 Oct 2024', 28.5, 35.1, 26.3],
-        ['7 Oct 2024', 0.0, 0.0, 0.0],
+        ['7 Oct 2024', 28.4, 35.5, 26.6],
         ['8 Oct 2024', 0.0, 0.0, 0.0],
         ['9 Oct 2024', 0.0, 0.0, 0.0],
         ['10 Oct 2024', 0.0, 0.0, 0.0],
