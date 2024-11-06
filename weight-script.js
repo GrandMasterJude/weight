@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function average() {
     let average = document.getElementById("average");
-    let result = (242.2 + 242.2 + 241 + 241.4 + 241.8) / 5;
+    let result = (242.4 + 242.2 + 241 + 241.4 + 241.8) / 5;
     console.log('average :', average);
     console.log('result :', result);
     average.innerHTML = Math.round(result * 100) / 100;
