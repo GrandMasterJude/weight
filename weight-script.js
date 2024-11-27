@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function average() {
     let average = document.getElementById("average");
-    let result = (240.2 + 239.4 + 238.8 + 237.6 + 237.0) / 5;
+    let result = (239.4 + 238.8 + 237.6 + 237.0 + 239.0) / 5;
     console.log('average :', average);
     console.log('result :', result);
     average.innerHTML = Math.round(result * 100) / 100;
@@ -97,7 +97,7 @@ function drawChart() {
         ['24 Nov 2024', 238.8],
         ['25 Nov 2024', 237.6],
         ['26 Nov 2024', 237.0],
-        ['27 Nov 2024', 0],
+        ['27 Nov 2024', 239.0],
         ['28 Nov 2024', 0],
         ['29 Nov 2024', 0],
         ['30 Nov 2024', 0],
@@ -217,7 +217,7 @@ function drawChart() {
         ['24 Nov 2024', 27.8],
         ['25 Nov 2024', 27.7],
         ['26 Nov 2024', 27.6],
-        ['27 Nov 2024', 0],
+        ['27 Nov 2024', 27.9],
         ['28 Nov 2024', 0],
         ['29 Nov 2024', 0],
         ['30 Nov 2024', 0],
@@ -337,7 +337,7 @@ function drawChart() {
         ['24 Nov 2024', 27.8, 36.2, 27.1],
         ['25 Nov 2024', 27.7, 36.4, 27.2],
         ['26 Nov 2024', 27.6, 36.5, 27.3],
-        ['27 Nov 2024', 0.0, 0.0, 0.0],
+        ['27 Nov 2024', 27.9, 36.1, 27.0],
         ['28 Nov 2024', 0.0, 0.0, 0.0],
         ['29 Nov 2024', 0.0, 0.0, 0.0],
         ['30 Nov 2024', 0.0, 0.0, 0.0],
