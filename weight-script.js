@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function average() {
     let average = document.getElementById("average");
-    let result = (239.4 + 237.4 + 238.0 + 240.4 + 238.2) / 5;
+    let result = (238.0 + 240.4 + 238.2 + 237.6 + 235.4) / 5;
     console.log('average :', average);
     console.log('result :', result);
     average.innerHTML = Math.round(result * 100) / 100;
@@ -107,8 +107,8 @@ function drawChart() {
         ['4 Dec 2024', 238.0],
         ['5 Dec 2024', 240.4],
         ['6 Dec 2024', 238.2],
-        ['7 Dec 2024', 0],
-        ['8 Dec 2024', 0],
+        ['7 Dec 2024', 237.6],
+        ['8 Dec 2024', 235.4],
         ['9 Dec 2024', 0],
         ['10 Dec 2024', 0],
         ['11 Dec 2024', 0],
@@ -227,8 +227,8 @@ function drawChart() {
         ['4 Dec 2024', 27.8],
         ['5 Dec 2024', 28],
         ['6 Dec 2024', 27.8],
-        ['7 Dec 2024', 0],
-        ['8 Dec 2024', 0],
+        ['7 Dec 2024', 27.7],
+        ['8 Dec 2024', 27.4],
         ['9 Dec 2024', 0],
         ['10 Dec 2024', 0],
         ['11 Dec 2024', 0],
@@ -347,8 +347,8 @@ function drawChart() {
         ['4 Dec 2024', 27.8, 36.3, 27.1],
         ['5 Dec 2024', 28.1, 35.8, 26.8],
         ['6 Dec 2024', 27.8, 36.3, 27.1],
-        ['7 Dec 2024', 0.0, 0.0, 0.0],
-        ['8 Dec 2024', 0.0, 0.0, 0.0],
+        ['7 Dec 2024', 27.7, 36.4, 27.2],
+        ['8 Dec 2024', 27.4, 36.8, 27.5],
         ['9 Dec 2024', 0.0, 0.0, 0.0],
         ['10 Dec 2024', 0.0, 0.0, 0.0],
         ['11 Dec 2024', 0.0, 0.0, 0.0],
