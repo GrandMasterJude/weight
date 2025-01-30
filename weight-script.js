@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function average() {
     let average = document.getElementById("average");
-    let result = (234.0 + 233.8 + 235.2 + 237.0 + 235.2) / 5;
+    let result = (237.0 + 235.2 + 233.6 + 235.6 + 234.4) / 5;
     console.log('average :', average);
     console.log('result :', result);
     average.innerHTML = Math.round(result * 100) / 100;
@@ -159,9 +159,9 @@ function drawChart() {
         ['25 Jan 2025', 237.0],
         ['26 Jan 2025', 0],
         ['27 Jan 2025', 235.2],
-        ['28 Jan 2025', 0],
-        ['29 Jan 2025', 0],
-        ['30 Jan 2025', 0],
+        ['28 Jan 2025', 233.6],
+        ['29 Jan 2025', 235.6],
+        ['30 Jan 2025', 234.4],
         ['31 Jan 2025', 0],
     ]);
 
@@ -310,9 +310,9 @@ function drawChart() {
         ['25 Jan 2025', 27.6],
         ['26 Jan 2025', 0],
         ['27 Jan 2025', 27.4],
-        ['28 Jan 2025', 0],
-        ['29 Jan 2025', 0],
-        ['30 Jan 2025', 0],
+        ['28 Jan 2025', 27.2],
+        ['29 Jan 2025', 27.5],
+        ['30 Jan 2025', 27.3],
         ['31 Jan 2025', 0],
     ]);
 
@@ -461,9 +461,9 @@ function drawChart() {
         ['25 Jan 2025', 27.6, 36.5, 27.3],
         ['26 Jan 2025', 0.0, 0.0, 0.0],
         ['27 Jan 2025', 27.3, 36.9, 27.6],
-        ['28 Jan 2025', 0.0, 0.0, 0.0],
-        ['29 Jan 2025', 0.0, 0.0, 0.0],
-        ['30 Jan 2025', 0.0, 0.0, 0.0],
+        ['28 Jan 2025', 27.1, 37.2, 27.8],
+        ['29 Jan 2025', 27.5, 36.8, 27.5],
+        ['30 Jan 2025', 27.2, 37.0, 27.7],
         ['31 Jan 2025', 0.0, 0.0, 0.0],
         ]);
 
