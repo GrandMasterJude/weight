@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function average() {
     let average = document.getElementById("average");
-    let result = (236.0 + 236.2 + 237.8 + 238.0 + 239.0) / 5;
+    let result = (246.4 + 244.0 + 245.2 + 245.2 + 244.4) / 5;
     console.log('average :', average);
     console.log('result :', result);
     average.innerHTML = Math.round(result * 100) / 100;
@@ -299,7 +299,7 @@ function drawChart() {
         ['14 June 2025', 244.0],
         ['15 June 2025', 245.2],
         ['16 June 2025', 245.2],
-        ['17 June 2025', 0.0],
+        ['17 June 2025', 244.4],
         ['18 June 2025', 0.0],
         ['19 June 2025', 0.0],
         ['20 June 2025', 0.0],
@@ -600,7 +600,7 @@ function drawChart() {
         ['14 June 2025', 28.4],
         ['15 June 2025', 28.6],
         ['16 June 2025', 28.6],
-        ['17 June 2025', 0.0],
+        ['17 June 2025', 28.5],
         ['18 June 2025', 0.0],
         ['19 June 2025', 0.0],
         ['20 June 2025', 0.0],
@@ -901,7 +901,7 @@ function drawChart() {
         ['14 June 2025', 28.6, 35.2, 26.3],
         ['15 June 2025', 28.8, 34.9, 26.1],
         ['16 June 2025', 28.8, 34.9, 26.1],
-        ['17 June 2025', 0.0, 0.0, 0.0],
+        ['17 June 2025', 28.7, 35.1, 26.3],
         ['18 June 2025', 0.0, 0.0, 0.0],
         ['19 June 2025', 0.0, 0.0, 0.0],
         ['20 June 2025', 0.0, 0.0, 0.0],
