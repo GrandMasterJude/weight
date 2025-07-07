@@ -304,11 +304,11 @@ let dataWeightRaw = [
     ['29 June 2025', 246.0],
     ['30 June 2025', 245.8],
     ['1 July 2025', 245.4],
-    // ['2 July 2025', 0.0],
-    // ['3 July 2025', 0.0],
-    // ['4 July 2025', 0.0],
-    // ['5 July 2025', 0.0],
-    // ['6 July 2025', 0.0],
+    ['2 July 2025', 246.2],
+    ['3 July 2025', 243.4],
+    ['4 July 2025', 243.6],
+    ['5 July 2025', 244.6],
+    ['6 July 2025', 243.4],
     // ['7 July 2025', 0.0],
     // ['8 July 2025', 0.0],
     // ['9 July 2025', 0.0],
@@ -369,13 +369,13 @@ let dataWeightRaw = [
 
 let dataAverage = [['Date', '5 Day Average']];
 
-for (let i = dataWeightRaw.length - 5; i < dataWeightRaw.length; i++) {
+for (let i = dataWeightRaw.length - 7; i < dataWeightRaw.length; i++) {
     let sum = 0;
-    for (let j = i - 4; j <= i; j++) {
+    for (let j = i - 6; j <= i; j++) {
         sum += dataWeightRaw[j][1]; 
     }
-    let average = sum / 5;
-    dataAverage.push([dataWeightRaw[i][0], parseFloat(average.toFixed(1))]);
+    let average = sum / 7;
+    dataAverage.push([dataWeightRaw[i][0], parseFloat(average.toFixed(3))]);
 }
 
 function drawChart() {
@@ -682,11 +682,11 @@ function drawChart() {
         ['29 June 2025', 28.7],
         ['30 June 2025', 28.7],
         ['1 July 2025', 28.6],
-        ['2 July 2025', 0.0],
-        ['3 July 2025', 0.0],
-        ['4 July 2025', 0.0],
-        ['5 July 2025', 0.0],
-        ['6 July 2025', 0.0],
+        ['2 July 2025', 28.7],
+        ['3 July 2025', 28.4],
+        ['4 July 2025', 28.4],
+        ['5 July 2025', 28.5],
+        ['6 July 2025', 28.4],
         ['7 July 2025', 0.0],
         ['8 July 2025', 0.0],
         ['9 July 2025', 0.0],
@@ -1045,11 +1045,11 @@ function drawChart() {
         ['29 June 2025', 28.9, 34.9, 26.1],
         ['30 June 2025', 29.9, 34.7, 26.1],
         ['1 July 2025', 28.8, 35.0, 26.2],
-        ['2 July 2025', 0.0, 0.0, 0.0],
-        ['3 July 2025', 0.0, 0.0, 0.0],
-        ['4 July 2025', 0.0, 0.0, 0.0],
-        ['5 July 2025', 0.0, 0.0, 0.0],
-        ['6 July 2025', 0.0, 0.0, 0.0],
+        ['2 July 2025', 28.9, 34.8, 26.1],
+        ['3 July 2025', 28.6, 35.3, 26.4],
+        ['4 July 2025', 28.6, 35.2, 26.3],
+        ['5 July 2025', 28.7, 35.0, 26.2],
+        ['6 July 2025', 28.4, 35.3, 26.4],
         ['7 July 2025', 0.0, 0.0, 0.0],
         ['8 July 2025', 0.0, 0.0, 0.0],
         ['9 July 2025', 0.0, 0.0, 0.0],
@@ -1127,6 +1127,9 @@ function drawChart() {
         chart: {
             title: '5 Day Average',
             legend: { position: 'none' },
+        },
+        vAxis: {
+            format: '#.##'
         }
     };
     let options1 = {
